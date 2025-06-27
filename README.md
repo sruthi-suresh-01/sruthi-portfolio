@@ -2,7 +2,7 @@
 
 A responsive, modern, and animated developer portfolio site built with **Next.js** and **Tailwind CSS**.
 
-Live Demo: [https://sruthi-portfolio.vercel.app](https://sruthi-portfolio.vercel.app)
+Live Demo: https://sruthi-portfolio-xi.vercel.app/
 
 ---
 
