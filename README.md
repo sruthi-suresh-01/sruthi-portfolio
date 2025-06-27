@@ -1,140 +1,64 @@
-# Web Developer Portfolio Template
+# Sruthi Suresh | Portfolio
 
-[Demo](https://www.devportfoliotemplates.com/portfolio-templates/web-developer)
+A responsive, modern, and animated developer portfolio site built with **Next.js** and **Tailwind CSS**.
 
-## Getting Started
+Live Demo: https://sruthi-portfolio-xi.vercel.app/
 
-You have two options to get started with this template:
+---
 
-### Option 1: Using Git Sparse Checkout
+## ✨ Features
 
-If you want to clone only this specific template:
+- Fully responsive layout
+- Animated hero section
+- Dynamic projects display
+- Smooth scrolling and scroll indicators
+- Lightweight and fast
+- Modern web capabilities (WebSockets, PWAs, etc.)
 
-```bash
-git clone --no-checkout https://github.com/devportfoliotemplates/devportfoliotemplates.git
-cd devportfoliotemplates
-git sparse-checkout init --cone
-git sparse-checkout set web-developer-portfolio-template
-git checkout
+---
+
+## 📁 Project Structure
+
+```
+.
+├── components         # All React components
+├── public             # Static files and images
+├── styles             # Global styles (Tailwind based)
+├── pages              # Next.js pages
+└── README.md
 ```
 
-### Option 2: Direct Download
+---
 
-You can download this template as a ZIP file:
+## 🚀 Deployment
 
-1. Visit [download-directory.github.io](https://download-directory.github.io/)
-2. Paste the URL of this portfolio folder: `https://github.com/devportfoliotemplates/devportfoliotemplates/tree/main/web-developer-portfolio-template`
-3. Download and extract the ZIP file
+This portfolio is designed to be easily deployed. The recommended method is using **Vercel**.
 
-### Running the Template
+### Option A: Deploy with Vercel
 
-Once you have the template:
+1. Push your code to a GitHub repository
+2. Go to [https://vercel.com](https://vercel.com) and log in
+3. Click on “New Project” and import your GitHub repo
+4. Select **Next.js** as the framework (auto-detected)
+5. Click **Deploy**
 
-1. Install dependencies:
+Vercel will provide you with a unique URL (e.g., `https://yourname.vercel.app`).
 
-```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-```
+---
 
-2. Run the development server:
+## 🧑‍💻 About Me
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+I’m **Sruthi Suresh**, a passionate developer with a background in Computer Science (MS, University of California, Riverside). I build full-stack applications and explore AI-powered solutions.
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser to see the portfolio.
+Currently working as an **AI Intern at Think Round NGO**, I’m open to exciting opportunities in software engineering—remote, hybrid, or onsite.
 
-## Customization
+---
 
-### Personal Information
+## 📬 Contact
 
-1. Update metadata in `app/layout.tsx`:
+- 📧 Email: sruthisuresh1402@gmail.com
+- 📞 Phone: +1 (951) 334-6999
+- 🔗 [LinkedIn](https://www.linkedin.com/in/sruthisuresh1402)
+- 🐙 [GitHub](https://github.com/sruthisuresh)
 
-   - Site title
-   - Description
-   - Open Graph metadata
-   - Favicon
-
-2. Modify content in `app/page.tsx`:
-
-   - Hero section
-   - About section
-   - Projects
-   - Contact information
-
-3. Replace assets:
-   - Replace images in the `public` directory
-   - Update social media icons
-   - Modify logo if needed
-
-### Styling
-
-1. Colors and Theme:
-
-   - Customize colors in `tailwind.config.js`
-   - Modify theme variables in `app/globals.css`
-
-2. Typography:
-
-   - Update font families in `tailwind.config.js`
-   - Modify text sizes and weights
-
-3. Layout:
-   - Adjust spacing and padding in component files
-   - Modify responsive breakpoints in `tailwind.config.js`
-
-## Troubleshooting
-
-### Common Issues
-
-1. **Build Errors**
-
-   - Ensure all dependencies are installed
-   - Clear `.next` folder and node_modules
-   - Run `npm install` again
-
-2. **Styling Issues**
-
-   - Run `npm run build` to ensure TailwindCSS classes are generated
-   - Check for conflicting styles in `globals.css`
-
-3. **Image Loading**
-   - Verify images are in the correct format (PNG, JPG, WebP)
-   - Check image paths are correct
-   - Ensure images are in the `public` directory
-
-## Deployment
-
-Follow these steps to deploy your portfolio for free using GitHub and Vercel:
-
-1. Create a new GitHub repository
-
-2. Push your portfolio to GitHub
-
-3. Deploy with Vercel:
-   - Go to [Vercel](https://vercel.com)
-   - Sign up or log in with GitHub
-   - Click "New Project"
-   - Import your GitHub repository
-   - Vercel will automatically detect Next.js
-   - Click "Deploy"
-
-Your portfolio will be live in minutes with a free Vercel domain (e.g., `your-repo.vercel.app`). You can later add a custom domain in your Vercel project settings.
-
-## Support
-
-If you find these templates helpful, please consider:
-
-- Starring the repository ⭐
-- Sharing with other developers
-- [Buying me a coffee](https://www.buymeacoffee.com/andreiancu) ☕
-
-For issues and feature requests, please [create an issue](https://github.com/devportfoliotemplates/devportfoliotemplates/issues).
+Feel free to reach out or fork this project to use as your own!

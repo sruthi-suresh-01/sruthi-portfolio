@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: 'Sruthi Suresh - Web Developer Portfolio',
 		description: 'Passionate web developer crafting modern and engaging digital experiences. Explore my projects and web development expertise.',
-		url: 'https://your-domain.com',
+		url: 'https://sruthi-portfolio-xi.vercel.app/',
 		siteName: 'Sruthi Suresh- Portfolio',
 		images: [
 			{
